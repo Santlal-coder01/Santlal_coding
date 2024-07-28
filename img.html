@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image container</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        body{
+            background-color: #000;
+            place-items: center;
+            display: grid;
+            min-width: 50%;
+            min-height: 100em;
+        }
+        .container1{
+        width: 50%;
+        height: 200px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        margin-left: 10%;
+     }
+     .container1 img{
+        width: 10%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid white;
+    
+     }
+     .container1 img:hover{
+        width: 100%;
+        transition: all ease-out 2s;
+        transition: all ease-in 1;
+        cursor: pointer;
+     }
+   
+
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <img src="web1.webp" alt="">
+        <img src="web2.webp" alt="">
+        <img src="web3.webp" alt="">
+        <img src="web4.avif" alt="">
+        <img src="web5.webp" alt="">
+        <img src="web6.webp" alt="">
+    </div>
+    
+
+
+</body>
+</html>
